@@ -25,7 +25,8 @@
       "required": [
         "id",
         "name",
-        "logo_url",
+        "logo_image_url",
+        "logo_icon_url",
         "applications"
       ],
       "properties": {
@@ -39,7 +40,12 @@
           "type": "string",
           "minLength": 1
         },
-        "logo_url": {
+        "logo_image_url": {
+          "$comment": "URL to an image that shows the logo of this player",
+          "type": "string",
+          "format": "uri"
+        },
+        "logo_icon_url": {
           "$comment": "URL to an icon that shows the logo of this player",
           "type": "string",
           "format": "uri"

@@ -4,7 +4,8 @@
     {
       "id": "tidal",
       "name": "TIDAL",
-      "logo_url": "https://musicpresence.app/live/app-assets/v1/tidal.jpg",
+      "logo_image_url": "https://musicpresence.app/live/app-assets/v1/tidal.jpg",
+      "logo_icon_url": "https://musicpresence.app/live/app-assets/v1/tidal.ico",
       "applications": [
         {
           "platform": "windows",
@@ -23,7 +24,8 @@
     {
       "id": "qobuz",
       "name": "Qobuz",
-      "logo_url": "https://musicpresence.app/live/app-assets/v1/qobuz.jpg",
+      "logo_image_url": "https://musicpresence.app/live/app-assets/v1/qobuz.jpg",
+      "logo_icon_url": "https://musicpresence.app/live/app-assets/v1/qobuz.ico",
       "applications": [
         {
           "platform": "windows",
@@ -34,7 +36,8 @@
     {
       "id": "spotify",
       "name": "Spotify",
-      "logo_url": "https://musicpresence.app/live/app-assets/v1/spotify.jpg",
+      "logo_image_url": "https://musicpresence.app/live/app-assets/v1/spotify.jpg",
+      "logo_icon_url": "https://musicpresence.app/live/app-assets/v1/spotify.ico",
       "applications": [
         {
           "platform": "windows",
@@ -45,7 +48,8 @@
     {
       "id": "foobar2000",
       "name": "foobar2000",
-      "logo_url": "https://musicpresence.app/live/app-assets/v1/foobar2000.jpg",
+      "logo_image_url": "https://musicpresence.app/live/app-assets/v1/foobar2000.jpg",
+      "logo_icon_url": "https://musicpresence.app/live/app-assets/v1/foobar2000.ico",
       "applications": [
         {
           "platform": "windows",
@@ -56,7 +60,8 @@
     {
       "id": "amazon-music",
       "name": "Amazon Music",
-      "logo_url": "https://musicpresence.app/live/app-assets/v1/amazon-music.jpg",
+      "logo_image_url": "https://musicpresence.app/live/app-assets/v1/amazon-music.jpg",
+      "logo_icon_url": "https://musicpresence.app/live/app-assets/v1/amazon-music.ico",
       "applications": [
         {
           "platform": "windows",
