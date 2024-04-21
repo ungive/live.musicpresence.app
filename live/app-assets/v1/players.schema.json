@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "required": [
+    "version",
+    "players"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "players": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "icon_filename",
+          "applications"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9\\-]*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "icon_filename": {
+            "type": "string",
+            "pattern": "^.+\\..+$"
+          },
+          "applications": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "object",
+              "required": ["platform", "application"],
+              "properties": {
+                "platform": {
+                  "type": "string",
+                  "enum": [
+                    "windows",
+                    "macos",
+                    "linux"
+                  ]
+                },
+                "application": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
