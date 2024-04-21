@@ -24,7 +24,7 @@
       "required": [
         "id",
         "name",
-        "icon_filename",
+        "logo_url",
         "applications"
       ],
       "properties": {
@@ -38,10 +38,10 @@
           "type": "string",
           "minLength": 1
         },
-        "icon_filename": {
-          "$comment": "The filename of a live icon asset",
+        "logo_url": {
+          "$comment": "URL to an icon that shows the logo of this player",
           "type": "string",
-          "pattern": "^.+\\..+$"
+          "format": "uri"
         },
         "applications": {
           "$comment": "A list of desktop applications of this player",
