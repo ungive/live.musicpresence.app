@@ -14,49 +14,65 @@
       "minItems": 1,
       "uniqueItems": true,
       "items": {
-        "type": "object",
-        "required": [
-          "id",
-          "name",
-          "icon_filename",
-          "applications"
-        ],
-        "properties": {
-          "id": {
-            "type": "string",
-            "pattern": "^[a-z][a-z0-9\\-]*$"
-          },
-          "name": {
-            "type": "string",
-            "minLength": 1
-          },
-          "icon_filename": {
-            "type": "string",
-            "pattern": "^.+\\..+$"
-          },
-          "applications": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "items": {
-              "type": "object",
-              "required": ["platform", "application"],
-              "properties": {
-                "platform": {
-                  "type": "string",
-                  "enum": [
-                    "windows",
-                    "macos",
-                    "linux"
-                  ]
-                },
-                "application": {
-                  "type": "string",
-                  "minLength": 1
-                }
-              }
-            }
+        "$ref": "#/$defs/player"
+      }
+    }
+  },
+  "$defs": {
+    "player": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "icon_filename",
+        "applications"
+      ],
+      "properties": {
+        "id": {
+          "$comment": "A unique internal identifier for this player",
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9\\-]*$"
+        },
+        "name": {
+          "$comment": "The display name of the player",
+          "type": "string",
+          "minLength": 1
+        },
+        "icon_filename": {
+          "$comment": "The filename of a live icon asset",
+          "type": "string",
+          "pattern": "^.+\\..+$"
+        },
+        "applications": {
+          "$comment": "A list of desktop applications of this player",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/application"
           }
+        }
+      }
+    },
+    "application": {
+      "type": "object",
+      "required": [
+        "platform",
+        "application"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string",
+          "enum": [
+            "windows",
+            "macos",
+            "linux"
+          ]
+        },
+        "application": {
+          "$comment": "Platform-specific application identifier",
+          "type": "string",
+          "minLength": 1
         }
       }
     }
