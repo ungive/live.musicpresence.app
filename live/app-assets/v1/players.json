@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "players": [
+    {
+      "id": "tidal",
+      "name": "TIDAL",
+      "logo_url": "https://musicpresence.app/live/app-assets/v1/tidal.jpg",
+      "applications": [
+        {
+          "platform": "windows",
+          "application": "TIDAL.exe"
+        },
+        {
+          "platform": "macos",
+          "application": "com.tidal.desktop"
+        },
+        {
+          "platform": "linux",
+          "application": "tidal-hifi"
+        }
+      ]
+    },
+    {
+      "id": "qobuz",
+      "name": "Qobuz",
+      "logo_url": "https://musicpresence.app/live/app-assets/v1/qobuz.jpg",
+      "applications": [
+        {
+          "platform": "windows",
+          "application": "Qobuz.exe"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "logo_url": "https://musicpresence.app/live/app-assets/v1/spotify.jpg",
+      "applications": [
+        {
+          "platform": "windows",
+          "application": "Spotify.exe"
+        }
+      ]
+    },
+    {
+      "id": "foobar2000",
+      "name": "foobar2000",
+      "logo_url": "https://musicpresence.app/live/app-assets/v1/foobar2000.jpg",
+      "applications": [
+        {
+          "platform": "windows",
+          "application": "foobar2000.exe"
+        }
+      ]
+    },
+    {
+      "id": "amazon-music",
+      "name": "Amazon Music",
+      "logo_url": "https://musicpresence.app/live/app-assets/v1/amazon-music.jpg",
+      "applications": [
+        {
+          "platform": "windows",
+          "application": "Amazon Music.exe"
+        }
+      ]
+    }
+  ]
+}
