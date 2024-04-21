@@ -10,6 +10,7 @@
       "const": 1
     },
     "players": {
+      "$comment": "An array of players. Each id key is unique",
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
@@ -44,7 +45,7 @@
           "format": "uri"
         },
         "applications": {
-          "$comment": "A list of desktop applications of this player",
+          "$comment": "A list of desktop applications of this player. There may be multiple applications on the same platform",
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,
