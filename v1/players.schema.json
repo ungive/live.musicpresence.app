@@ -1,0 +1,87 @@
+{
+  "type": "object",
+  "required": [
+    "version",
+    "players"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "players": {
+      "$comment": "An array of players. Each id key is unique",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/player"
+      }
+    }
+  },
+  "$defs": {
+    "player": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "logo_image_url",
+        "logo_icon_url",
+        "applications"
+      ],
+      "properties": {
+        "id": {
+          "$comment": "A unique internal identifier for this player",
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9\\-]*$"
+        },
+        "name": {
+          "$comment": "The display name of the player",
+          "type": "string",
+          "minLength": 1
+        },
+        "logo_image_url": {
+          "$comment": "URL to an image that shows the logo of this player",
+          "type": "string",
+          "format": "uri"
+        },
+        "logo_icon_url": {
+          "$comment": "URL to an icon that shows the logo of this player",
+          "type": "string",
+          "format": "uri"
+        },
+        "applications": {
+          "$comment": "A list of desktop applications of this player. There may be multiple applications on the same platform",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/application"
+          }
+        }
+      }
+    },
+    "application": {
+      "type": "object",
+      "required": [
+        "platform",
+        "application"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string",
+          "enum": [
+            "windows",
+            "macos",
+            "linux"
+          ]
+        },
+        "application": {
+          "$comment": "Platform-specific application identifier",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
