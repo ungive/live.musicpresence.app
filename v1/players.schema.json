@@ -64,11 +64,11 @@
     "application": {
       "type": "object",
       "required": [
-        "platform",
+        "interface",
         "application"
       ],
       "properties": {
-        "platform": {
+        "interface": {
           "type": "string",
           "enum": [
             "win_winrt",
