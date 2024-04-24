@@ -71,9 +71,9 @@
         "platform": {
           "type": "string",
           "enum": [
-            "windows",
-            "macos",
-            "linux"
+            "win_winrt",
+            "mac_mediaremote",
+            "lin_mpris"
           ]
         },
         "application": {

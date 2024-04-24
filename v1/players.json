@@ -8,15 +8,15 @@
       "logo_icon_url": "https://live.musicpresence.app/v1/tidal.ico",
       "applications": [
         {
-          "platform": "windows",
+          "platform": "win_winrt",
           "application": "TIDAL.exe"
         },
         {
-          "platform": "macos",
+          "platform": "mac_mediaremote",
           "application": "com.tidal.desktop"
         },
         {
-          "platform": "linux",
+          "platform": "lin_mpris",
           "application": "tidal-hifi"
         }
       ]
@@ -28,7 +28,7 @@
       "logo_icon_url": "https://live.musicpresence.app/v1/qobuz.ico",
       "applications": [
         {
-          "platform": "windows",
+          "platform": "win_winrt",
           "application": "Qobuz.exe"
         }
       ]
@@ -40,7 +40,7 @@
       "logo_icon_url": "https://live.musicpresence.app/v1/spotify.ico",
       "applications": [
         {
-          "platform": "windows",
+          "platform": "win_winrt",
           "application": "Spotify.exe"
         }
       ]
@@ -52,7 +52,7 @@
       "logo_icon_url": "https://live.musicpresence.app/v1/foobar2000.ico",
       "applications": [
         {
-          "platform": "windows",
+          "platform": "win_winrt",
           "application": "foobar2000.exe"
         }
       ]
@@ -64,7 +64,7 @@
       "logo_icon_url": "https://live.musicpresence.app/v1/amazon-music.ico",
       "applications": [
         {
-          "platform": "windows",
+          "platform": "win_winrt",
           "application": "Amazon Music.exe"
         }
       ]
