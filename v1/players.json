@@ -12,6 +12,10 @@
         },
         {
           "interface": "win_winrt",
+          "application": "com.squirrel.TIDAL.TIDAL"
+        },
+        {
+          "interface": "win_winrt",
           "application": "WiMPMusic.27241E05630EA_kn85bz84x7te4!TIDAL"
         },
         {
