@@ -87,6 +87,18 @@
           "application": "MusicBee.exe"
         }
       ]
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer",
+      "logo_image_url": "https://live.musicpresence.app/v1/deezer.jpg",
+      "logo_icon_url": "https://live.musicpresence.app/v1/deezer.ico",
+      "applications": [
+        {
+          "interface": "win_winrt",
+          "application": "Deezer.exe"
+        }
+      ]
     }
   ]
 }
