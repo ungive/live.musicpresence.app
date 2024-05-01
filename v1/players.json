@@ -75,6 +75,18 @@
           "application": "Amazon Music.exe"
         }
       ]
+    },
+    {
+      "id": "musicbee",
+      "name": "MusicBee",
+      "logo_image_url": "https://live.musicpresence.app/v1/musicbee.jpg",
+      "logo_icon_url": "https://live.musicpresence.app/v1/musicbee.ico",
+      "applications": [
+        {
+          "interface": "win_winrt",
+          "application": "MusicBee.exe"
+        }
+      ]
     }
   ]
 }
