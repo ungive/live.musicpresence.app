@@ -49,6 +49,10 @@
         {
           "interface": "win_winrt",
           "application": "Spotify.exe"
+        },
+        {
+          "interface": "win_winrt",
+          "application": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify"
         }
       ]
     },
@@ -73,6 +77,14 @@
         {
           "interface": "win_winrt",
           "application": "Amazon Music.exe"
+        },
+        {
+          "interface": "win_winrt",
+          "application": "AmazonMobileLLC.AmazonMusic_kc6t79cpj4tp0!AmazonMobileLLC.AmazonMusic"
+        },
+        {
+          "interface": "win_winrt",
+          "application": "Amazon.Music"
         }
       ]
     },
