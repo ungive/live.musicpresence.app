@@ -53,6 +53,10 @@
         {
           "interface": "win_winrt",
           "application": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify"
+        },
+        {
+          "interface": "mac_mediaremote",
+          "application": "com.spotify.client"
         }
       ]
     },
