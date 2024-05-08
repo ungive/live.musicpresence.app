@@ -69,6 +69,10 @@
         {
           "interface": "win_winrt",
           "application": "foobar2000.exe"
+        },
+        {
+          "interface": "mac_mediaremote",
+          "application": "com.foobar2000.mac"
         }
       ]
     },
@@ -89,6 +93,10 @@
         {
           "interface": "win_winrt",
           "application": "Amazon.Music"
+        },
+        {
+          "interface": "mac_mediaremote",
+          "application": "com.amazon.music"
         }
       ]
     },
@@ -113,6 +121,22 @@
         {
           "interface": "win_winrt",
           "application": "Deezer.exe"
+        },
+        {
+          "interface": "mac_mediaremote",
+          "application": "com.deezer.deezer-desktop"
+        }
+      ]
+    },
+    {
+      "id": "apple-music",
+      "name": "Apple Music",
+      "logo_image_url": "https://live.musicpresence.app/v1/apple-music.jpg",
+      "logo_icon_url": "https://live.musicpresence.app/v1/apple-music.ico",
+      "applications": [
+        {
+          "interface": "mac_mediaremote",
+          "application": "com.apple.Music"
         }
       ]
     }
