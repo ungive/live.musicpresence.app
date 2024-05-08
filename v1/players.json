@@ -137,6 +137,10 @@
         {
           "interface": "mac_mediaremote",
           "application": "com.apple.Music"
+        },
+        {
+          "interface": "win_winrt",
+          "application": "AppleMusic.exe"
         }
       ]
     }
