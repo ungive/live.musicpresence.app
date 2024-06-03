@@ -141,6 +141,10 @@
         {
           "interface": "win_winrt",
           "application": "AppleMusic.exe"
+        },
+        {
+          "interface": "win_winrt",
+          "application": "AppleInc.AppleMusicWin_nzyj5cx40ttqa!App"
         }
       ]
     }
