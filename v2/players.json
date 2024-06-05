@@ -8,8 +8,8 @@
       "discord_application_id": "1246943204411179120",
       "resources": {
         "logo": {
-          "jpg": "https://live.musicpresence.app/v1/tidal.jpg",
-          "ico": "https://live.musicpresence.app/v1/tidal.ico"
+          "jpg": "https://live.musicpresence.app/v2/tidal.jpg",
+          "ico": "https://live.musicpresence.app/v2/tidal.ico"
         }
       },
       "applications": [
@@ -46,8 +46,8 @@
       "discord_application_id": "1247655024637513778",
       "resources": {
         "logo": {
-          "jpg": "https://live.musicpresence.app/v1/qobuz.jpg",
-          "ico": "https://live.musicpresence.app/v1/qobuz.ico"
+          "jpg": "https://live.musicpresence.app/v2/qobuz.jpg",
+          "ico": "https://live.musicpresence.app/v2/qobuz.ico"
         }
       },
       "applications": [
@@ -64,8 +64,8 @@
       "discord_application_id": "1247651846936596540",
       "resources": {
         "logo": {
-          "jpg": "https://live.musicpresence.app/v1/spotify.jpg",
-          "ico": "https://live.musicpresence.app/v1/spotify.ico"
+          "jpg": "https://live.musicpresence.app/v2/spotify.jpg",
+          "ico": "https://live.musicpresence.app/v2/spotify.ico"
         }
       },
       "applications": [
@@ -94,8 +94,8 @@
       "discord_application_id": "1247654172975956088",
       "resources": {
         "logo": {
-          "jpg": "https://live.musicpresence.app/v1/foobar2000.jpg",
-          "ico": "https://live.musicpresence.app/v1/foobar2000.ico"
+          "jpg": "https://live.musicpresence.app/v2/foobar2000.jpg",
+          "ico": "https://live.musicpresence.app/v2/foobar2000.ico"
         }
       },
       "applications": [
@@ -116,8 +116,8 @@
       "discord_application_id": "1247654006587789363",
       "resources": {
         "logo": {
-          "jpg": "https://live.musicpresence.app/v1/amazon-music.jpg",
-          "ico": "https://live.musicpresence.app/v1/amazon-music.ico"
+          "jpg": "https://live.musicpresence.app/v2/amazon-music.jpg",
+          "ico": "https://live.musicpresence.app/v2/amazon-music.ico"
         }
       },
       "applications": [
@@ -242,8 +242,8 @@
       "discord_application_id": "1247654771557666889",
       "resources": {
         "logo": {
-          "jpg": "https://live.musicpresence.app/v1/musicbee.jpg",
-          "ico": "https://live.musicpresence.app/v1/musicbee.ico"
+          "jpg": "https://live.musicpresence.app/v2/musicbee.jpg",
+          "ico": "https://live.musicpresence.app/v2/musicbee.ico"
         }
       },
       "applications": [
@@ -260,8 +260,8 @@
       "discord_application_id": "1247654082215284847",
       "resources": {
         "logo": {
-          "jpg": "https://live.musicpresence.app/v1/deezer.jpg",
-          "ico": "https://live.musicpresence.app/v1/deezer.ico"
+          "jpg": "https://live.musicpresence.app/v2/deezer.jpg",
+          "ico": "https://live.musicpresence.app/v2/deezer.ico"
         }
       },
       "applications": [
@@ -286,8 +286,8 @@
       "discord_application_id": "1247654840780460125",
       "resources": {
         "logo": {
-          "jpg": "https://live.musicpresence.app/v1/apple-music.jpg",
-          "ico": "https://live.musicpresence.app/v1/apple-music.ico"
+          "jpg": "https://live.musicpresence.app/v2/apple-music.jpg",
+          "ico": "https://live.musicpresence.app/v2/apple-music.ico"
         }
       },
       "applications": [
@@ -306,6 +306,42 @@
         {
           "interface": "web_domain",
           "id": "music.apple.com"
+        }
+      ]
+    },
+    {
+      "id": "windows-media-player",
+      "name": "Windows Media Player",
+      "pure": false,
+      "discord_application_id": "1247847866622410784",
+      "resources": {
+        "logo": {
+          "jpg": "https://live.musicpresence.app/v2/windows-media-player.jpg",
+          "ico": "https://live.musicpresence.app/v2/windows-media-player.ico"
+        }
+      },
+      "applications": [
+        {
+          "interface": "win_winrt",
+          "id": "Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic"
+        }
+      ]
+    },
+    {
+      "id": "youtube-music",
+      "name": "YouTube Music",
+      "pure": true,
+      "discord_application_id": "1247847788302172273",
+      "resources": {
+        "logo": {
+          "jpg": "https://live.musicpresence.app/v2/youtube-music.jpg",
+          "ico": "https://live.musicpresence.app/v2/youtube-music.ico"
+        }
+      },
+      "applications": [
+        {
+          "interface": "web_domain",
+          "id": "music.youtube.com"
         }
       ]
     }
