@@ -54,6 +54,10 @@
         {
           "interface": "win_winrt",
           "id": "Qobuz.exe"
+        },
+        {
+          "interface": "win_winrt",
+          "id": "com.squirrel.Qobuz.Qobuz"
         }
       ]
     },
