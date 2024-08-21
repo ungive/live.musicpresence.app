@@ -346,6 +346,10 @@
         {
           "interface": "web_domain",
           "id": "music.youtube.com"
+        },
+        {
+          "interface": "win_winrt",
+          "id": "YouTube Music.exe"
         }
       ]
     }
