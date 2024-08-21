@@ -350,6 +350,10 @@
         {
           "interface": "win_winrt",
           "id": "YouTube Music.exe"
+        },
+        {
+          "interface": "win_winrt",
+          "id": "com.github.th-ch.youtube-music"
         }
       ]
     }
