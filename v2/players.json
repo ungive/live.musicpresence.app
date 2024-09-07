@@ -254,6 +254,10 @@
         {
           "interface": "win_winrt",
           "id": "MusicBee.exe"
+        },
+        {
+          "interface": "win_winrt",
+          "id": "50072StevenMayall.MusicBee_kcr266et74avj!MusicBeePackage"
         }
       ]
     },
