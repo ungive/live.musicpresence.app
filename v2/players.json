@@ -360,6 +360,24 @@
           "id": "com.github.th-ch.youtube-music"
         }
       ]
+    },
+    {
+      "id": "next-player",
+      "name": "Next-Player",
+      "pure": true,
+      "discord_application_id": "1282830052949491795",
+      "resources": {
+        "logo": {
+          "jpg": "https://live.musicpresence.app/v2/next-player.jpg",
+          "ico": "https://live.musicpresence.app/v2/next-player.ico"
+        }
+      },
+      "applications": [
+        {
+          "interface": "win_winrt",
+          "id": "60490polApki.Next-Player_4j2bpc236qkhp!App"
+        }
+      ]
     }
   ]
 }
