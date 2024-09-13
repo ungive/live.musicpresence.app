@@ -5,6 +5,7 @@
       "id": "tidal",
       "name": "TIDAL",
       "pure": true,
+      "service": true,
       "discord_application_id": "1246943204411179120",
       "resources": {
         "logo": {
@@ -43,6 +44,7 @@
       "id": "qobuz",
       "name": "Qobuz",
       "pure": true,
+      "service": true,
       "discord_application_id": "1247655024637513778",
       "resources": {
         "logo": {
@@ -65,6 +67,7 @@
       "id": "spotify",
       "name": "Spotify",
       "pure": true,
+      "service": true,
       "discord_application_id": "1247651846936596540",
       "resources": {
         "logo": {
@@ -95,6 +98,7 @@
       "id": "foobar2000",
       "name": "foobar2000",
       "pure": true,
+      "service": false,
       "discord_application_id": "1247654172975956088",
       "resources": {
         "logo": {
@@ -117,6 +121,7 @@
       "id": "amazon-music",
       "name": "Amazon Music",
       "pure": true,
+      "service": true,
       "discord_application_id": "1247654006587789363",
       "resources": {
         "logo": {
@@ -243,6 +248,7 @@
       "id": "musicbee",
       "name": "MusicBee",
       "pure": true,
+      "service": false,
       "discord_application_id": "1247654771557666889",
       "resources": {
         "logo": {
@@ -265,6 +271,7 @@
       "id": "deezer",
       "name": "Deezer",
       "pure": true,
+      "service": true,
       "discord_application_id": "1247654082215284847",
       "resources": {
         "logo": {
@@ -291,6 +298,7 @@
       "id": "apple-music",
       "name": "Apple Music",
       "pure": true,
+      "service": true,
       "discord_application_id": "1247654840780460125",
       "resources": {
         "logo": {
@@ -321,6 +329,7 @@
       "id": "windows-media-player",
       "name": "Windows Media Player",
       "pure": false,
+      "service": false,
       "discord_application_id": "1247847866622410784",
       "resources": {
         "logo": {
@@ -339,6 +348,7 @@
       "id": "youtube-music",
       "name": "YouTube Music",
       "pure": true,
+      "service": true,
       "discord_application_id": "1247847788302172273",
       "resources": {
         "logo": {
@@ -365,6 +375,7 @@
       "id": "next-player",
       "name": "Next-Player",
       "pure": true,
+      "service": false,
       "discord_application_id": "1282830052949491795",
       "resources": {
         "logo": {

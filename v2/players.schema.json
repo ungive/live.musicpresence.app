@@ -28,6 +28,7 @@
         "id",
         "name",
         "pure",
+        "service",
         "discord_application_id",
         "resources",
         "applications"
@@ -46,6 +47,10 @@
         },
         "pure": {
           "$comment": "Whether the vast majority of the media from this player is music only and not personal videos or the like",
+          "type": "boolean"
+        },
+        "service": {
+          "$comment": "Whether media from this player stems from a large streaming service and can or should be branded with that service's logo",
           "type": "boolean"
         },
         "discord_application_id": {
